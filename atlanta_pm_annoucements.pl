@@ -14,18 +14,18 @@ my $messageSB = 'scott is looking for Storage Engineer, Backup Admins(2), Linux 
 #
 while(1)
 	{
-	printf "%s\n", $message1;
+	printf sprintf "%s\n", $message1;
 	sleep 1;
-	printf "%s\n", $message2;
+	printf sprintf "%s\n", $message2;
 	sleep 1;
-	printf "%s\n", $message3;
+	printf sprintf "%s\n", $message3;
 	sleep 1;
-	printf "%s\n", $message4;
+	printf sprintf "%s\n", $message4;
 	sleep 1;
-	printf "%s\n", $message5;
+	printf sprintf "%s\n", $message5;
 	sleep 1;
 	print "\n";
-	printf "%s\n", $messageSB;
+	printf sprintf "%s\n", $messageSB;
 	sleep 1;
 	
 	print "\n\n\n\n";
