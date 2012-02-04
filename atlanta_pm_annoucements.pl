@@ -3,31 +3,22 @@
 $|=1;
 #
 #
-my $message1 = 'welcome to the atlanta.pm Feb meeting.';
-my $message2 = 'Stephen is in charge... :)';
-my $message3 = 'please return your badges to security.';
-my $message4 = 'restrooms are to the R, R, half was down on the R.';
-my $message5 = 'dont take food from breakroom. sodas from soda fountain is ok';
-my $messageSB = 'scott is looking for Storage Engineer, Backup Admins(2), Linux SysAdmins(4), Linux Engineers(8+).';
-#
-#
+my @messages = (
+	'welcome to the Atlanta.pm Feb meeting.',
+	'Line 2.',
+	'Line 3.',
+	'Line 4.',
+	'Line 5.',
+	"\nLine with extra space above to highlight an important message.',
+	);
 #
 while(1)
 	{
-	printf sprintf "%s\n", $message1;
-	sleep 1;
-	printf sprintf "%s\n", $message2;
-	sleep 1;
-	printf sprintf "%s\n", $message3;
-	sleep 1;
-	printf sprintf "%s\n", $message4;
-	sleep 1;
-	printf sprintf "%s\n", $message5;
-	sleep 1;
-	print "\n";
-	printf sprintf "%s\n", $messageSB;
-	sleep 1;
-	
+	for my $msg (@messages)
+		{
+		print "$msg\n";
+		sleep 1;
+		}
 	print "\n\n\n\n";
 	sleep 1;
 	}
