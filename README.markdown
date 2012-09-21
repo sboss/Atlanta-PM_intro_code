@@ -19,3 +19,7 @@ We have updated the code a few times.  the orignal code with cleanup updates in 
 A new one with external file(s) for the input of the "announcements" and has customizable width of the display.
 
 A new folder called "bad_bad_code" has the original really bad code in it.
+
+## contributors
+
+[sboss]( https://github.com/sboss "sboss" )  [![endorse](http://api.coderwall.com/sboss/endorsecount.png)](http://coderwall.com/sboss)
